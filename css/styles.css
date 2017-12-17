@@ -7,12 +7,18 @@ html{
 h1{
     text-align: center;
 }
+.nav{
+    padding: 0px;
+}
 .nav li{
     background-color: #fff;
     width: 100%;
     margin: 10px 0px 10px 0px;
     list-style: none;
+    text-align: center;
+}
+.nav li a{
+    
     text-decoration: none;
     color: black;
-    text-align: center;
 }
