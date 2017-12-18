@@ -1,5 +1,13 @@
+.footer{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 *{
     font-family: 'Bungee', cursive;
+}
+* a{
+    text-decoration: none;
+    color: black;
 }
 html{
     
@@ -20,11 +28,6 @@ h1{
 }
 .nav :hover{
     background-color: rgb(72, 122, 72);
-}
-.nav li a{
-    
-    text-decoration: none;
-    color: black;
 }
 .intro{
     text-align: center;
