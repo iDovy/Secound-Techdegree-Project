@@ -18,6 +18,9 @@ h1{
     list-style: none;
     text-align: center;
 }
+.nav :hover{
+    background-color: rgb(72, 122, 72);
+}
 .nav li a{
     
     text-decoration: none;
@@ -25,4 +28,14 @@ h1{
 }
 .intro{
     text-align: center;
+}
+.intro img{
+    width:100%;
+}
+.sites{
+    background-color: white;
+    text-align: center;
+}
+.sites img{
+    width: 100%;
 }
