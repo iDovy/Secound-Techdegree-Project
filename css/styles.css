@@ -6,7 +6,7 @@
     color: black;
 }
 html{
-    
+
     background-color: #f5f5f5;
 }
 h1{
@@ -53,10 +53,9 @@ h1{
 }
 .end{
     display: flex;
+    justify-content: space-between;
 }
 .end p{
-    width: 100%;
-}
-.end p a{
-    margin-right: auto;
+  margin: 0;
+
 }
