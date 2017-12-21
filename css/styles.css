@@ -18,6 +18,12 @@ h1{
     display: flex;
     flex-direction: column;
 }
+.navb{
+    display: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
 .nav li{
     background-color: rgb(174, 255, 174);
     width: 100%;
@@ -69,6 +75,7 @@ h1{
 @media (min-width:768px){
 .nav {
     flex-direction: row;
+    margin: 0% 30% 0% 30%;
 }
 .intro{
     display: flex;
@@ -76,11 +83,29 @@ h1{
 }
 .sites{
     display: table;
+    margin-left: 5%;
     
 }
 .sites li{
     width: 45%;
     margin: 5px; 
     float: left;
+}
+.footer p{
+    margin: 0% 10% 2% 10%;
+}
+.navb{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.navb li{
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+    list-style: none;
+    text-align: right;
+}
+.gtt{
+    display: none;
 }
 }
