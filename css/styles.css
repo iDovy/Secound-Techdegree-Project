@@ -21,7 +21,6 @@ h1{
 .navb{
     display: none;
     padding: 0px;
-    display: flex;
     flex-direction: column;
 }
 .nav li{
@@ -73,39 +72,61 @@ h1{
 
 }
 @media (min-width:768px){
-.nav {
-    flex-direction: row;
-    margin: 0% 30% 0% 30%;
+    .nav {
+        flex-direction: row;
+        margin: 0% 30% 0% 30%;
+    }
+    .intro{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .sites{
+        display: table;
+        margin-left: 5%;
+        
+    }
+    .sites li{
+        width: 45%;
+        margin: 5px; 
+        float: left;
+    }
+    .footer p{
+        margin: 0% 10% 2% 10%;
+    }
+    .navb{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .navb li{
+        width: 100%;
+        margin: 0px 10px 0px 10px;
+        list-style: none;
+        text-align: right;
+    }
+    .gtt{
+        display: none;
+    }
 }
-.intro{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.sites{
-    display: table;
-    margin-left: 5%;
-    
-}
-.sites li{
-    width: 45%;
-    margin: 5px; 
-    float: left;
-}
-.footer p{
-    margin: 0% 10% 2% 10%;
-}
-.navb{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-.navb li{
-    width: 100%;
-    margin: 0px 10px 0px 10px;
-    list-style: none;
-    text-align: right;
-}
-.gtt{
-    display: none;
-}
+@media (min-width:1024px){
+    h1{
+        font-size: 25px;
+        text-align: left;
+        margin-top: 0;
+    }
+    .nav{
+        flex-direction: row;
+        float: right;
+    }
+    .nav li {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sites li{
+        width: 30%;
+    }
 }
