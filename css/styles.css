@@ -54,6 +54,14 @@ h1{
 .sites img{
     width: 100%;
 }
+.skills{
+    padding: 0px;
+}
+.skills li{
+    text-align: center;
+    list-style: none;
+    background-color: aqua;
+}
 .footer h4{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
