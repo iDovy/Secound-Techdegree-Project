@@ -5,12 +5,15 @@
     text-decoration: none;
     color: black;
 }
+<<<<<<< HEAD
 body{
     margin: 0 20px 0 20px;
 }
 h3{
     text-align: center;
 }
+=======
+>>>>>>> parent of 867d35c... Added skills
 html{
 
     background-color: #f5f5f5;
@@ -91,17 +94,17 @@ h1{
         flex-direction: row;
         margin: 0% 30% 5% 30%;
     }
-    .nav li{
-        margin: 0px 10px 0px 10px
-    }
     .intro{
         display: flex;
         flex-direction: row-reverse;
     }
+<<<<<<< HEAD
     .intro img{
         width: 500px;
         margin-left: 5px;
     }
+=======
+>>>>>>> parent of 867d35c... Added skills
     .sites{
         width: 100%;
         margin-left: 5%;
