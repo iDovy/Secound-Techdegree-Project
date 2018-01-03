@@ -53,13 +53,16 @@ h1{
     text-align: center;
     list-style: none;
     padding: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0; 
     clear: both;
+
 }
 .sites img{
     width: 100%;
 }
 .sites li p{
-    height: 130px;
+    height: 140px;
 }
 .skills{
     padding: 0px;
@@ -153,6 +156,9 @@ h1{
     }
 }
 @media (min-width:1024px){
+    .nav{
+        margin-right: -12px;
+    }
     h1{
         font-size: 25px;
         text-align: left;
@@ -161,6 +167,9 @@ h1{
     .nav{
         flex-direction: row;
         float: right;
+    }
+    .intro p{
+        text-align: left;
     }
     .nav li {
         margin-left: 5px;
